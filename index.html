@@ -15,6 +15,46 @@
         <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--search bar-->
+    <section>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+    </section>
+    <br>
+    <br>
 <!-- Top fluid Container Navbar & Bannar -->
 <div class="container-fluid lightGreen">
     <!-- Navbar -->
@@ -109,6 +149,7 @@
 </div>
 
 <!-- Online Courses Section -->
+
 <div id="courses" class="container my-5">
     <h2 class="text-center font-weight-bold mb-5 bg-success w-50 py-2 px-3 text-light mx-auto shapeBorder">Online Courses</h2>
     <div class="row">
@@ -197,8 +238,8 @@
                 <div class="col-md-8 col-sm-12">
                     <h4 class="font-weight-bold">Mark Zakarburg</h4>
                     <p class="text-muted">CEO Facebook</p>
-                    <p>Mark Elliot Zuckerberg born May 14, 1984) is an American media magnate, internet entrepreneur, and philanthropist. He is known for co-founding Facebook, Inc. and serves as its chairman, chief executive officer, and controlling shareholder.[3][4] He also is a co-founder of the solar sail spacecraft development project Breakthrough Starshot and serves as one of its board members.[5]
-                        Born in White Plains, New York, Zuckerberg attended Harvard University, where he launched the Facebook social networking service from his dormitory room on February 4, 2004, with college roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes.[6] Originally launched to select college campuses, the site expanded rapidly and eventually beyond colleges, reaching one billion users by 2012. Zuckerberg took the company public in May 2012 with majority shares. His net worth is estimated to be nearly $54 billion as of March 2020.[7] In 2007, at age 23, he became the world's youngest self-made billionaire. As of 2019, he is the only person under 50 in the Forbes ten richest people list, and the only one under 40 in the Top 20 Billionaires list
+                    <p>Mark Elliot Zuckerberg born May 14, 1984) is an American media magnate, internet entrepreneur, and philanthropist. He is known for co-foundin Facebook,       
+                        Born in White Plains, New York, Zuckerberg attended Harvard University, where he launched the Facebook social networking service from his dormitory room on February 4, 2004, with college roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes.[6] Originally launched to select college campuses, the site expanded rapidly and eventually beyond colleges, reaching one billion users by 2012. Zuckerberg took the company public in May 2012 with majority shares. His net worth is estimated to be nearly $54 billion as of March 2020. In 2007, at age 23, he became the world's youngest self-made billionaire. As of 2019, he is the only person under 50 in the Forbes ten richest people list, and the only one under 40 in the Top 20 Billionaires list
                         </p>
                 </div>
             </div>
@@ -211,7 +252,7 @@
                 <div class="col-md-8 col-sm-12">
                     <h4 class="font-weight-bold">Zeff Bejos</h4>
                     <p class="text-muted">CEO Amazon</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quidem totam perferendis impedit provident deserunt porro eum facere reiciendis recusandae?</p>
+                    <p>Jeffrey Preston Bezos Jorgensen; born January 12, 1964) is an American internet entrepreneur, industrialist, media proprietor, and investor. He is best known as the founder, CEO, and president of the multi-national technology company Amazon. The first centi-billionaire on the Forbes wealth index, Bezos has been the world's richest person since 2017 and was named the "richest man in modern history" after his net worth increased to $150 billion in July 2018.[3] In September 2018, Forbes described him as "far richer than anyone else on the planet" as he added $1.8 billion to his net worth when Amazon became the second company in history to reach a market cap of $1 trillion</p>
                 </div>
             </div>
           </div>
@@ -310,8 +351,12 @@
 
 
 <!-- Jquery Dependencies -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</section>
+
 </body>
 </html>
